@@ -1,0 +1,116 @@
+.container {
+  background-color: white;
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.heading {
+  font-size: 28px;
+  color: rgb(167, 0, 0);
+  text-align: center;
+}
+
+.inputCss {
+  background: rgb(167, 0, 0);
+  border: 1px solid red;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  width: 40%;
+  margin: 0 auto;
+}
+.inputCss ::placeholder{
+  color: rgba(255, 255, 255, 0.592);
+}
+
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: flex;
+  cursor: pointer;
+}
+
+.listDiv {
+  width: 100%;
+  margin-top: 30px;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+.listDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  font-size: 1rem;
+  color: black;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.span {
+  font-size: 16px;
+}
+.editInput {
+  background-color: transparent;
+  color: black;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid red;
+  padding: 0.2rem;
+}
+
+.leftDiv {
+  display: flex;
+  align-items: center;
+}
+
+.btnadd {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 20px 20px;
+  border-radius: 5px;
+  
+}
+
+.updatebtn {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
+
+.bottomDiv { 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0rem;
+  background: rgb(167, 0, 0);
+}
